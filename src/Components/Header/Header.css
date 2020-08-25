@@ -1,0 +1,26 @@
+.header-logo img {
+    height: 80px;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-logo nav {
+    background-color: black;
+    padding-left: 40px;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 3;
+    margin: 5px;
+    padding:10px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: gray;
+    transition: .3s;
+}

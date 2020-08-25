@@ -1,0 +1,42 @@
+.itemSummery,
+.itemNum {
+    text-align: center;
+}
+
+.itemValue {
+    margin: 0;
+    padding: 0 !important;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.itemValue h2 {
+    color: goldenrod;
+}
+
+.money {
+    float: right;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0 !important;
+}
+
+.moneyName {
+    float: left;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.left-cart-btn {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+}
+
+.cart h2 {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
