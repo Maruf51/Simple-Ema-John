@@ -11,7 +11,7 @@
 }
 
 .itemValue h2 {
-    color: goldenrod;
+    color: #b12704;
 }
 
 .money {
@@ -33,6 +33,11 @@
     align-items: center;
     justify-content: center;
     width: 92%;
+    margin-top: 20px;
+}
+
+.placeOrder {
+    text-decoration: none;
 }
 
 .cart h2 {

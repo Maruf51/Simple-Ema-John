@@ -1,5 +1,6 @@
 .header-logo img {
     height: 80px;
+    margin: 25px;
 }
 
 .header-logo {
@@ -9,18 +10,46 @@
 .header-logo nav {
     background-color: black;
     padding-left: 40px;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    text-align: center;
+    justify-content: center;
 }
 
-nav a {
+.headerLink {
     text-decoration: none;
     line-height: 3;
     margin: 5px;
-    padding:10px;
+    padding: 10px 20px;
     color: white;
+    border-radius: 5px 10px;
+    display: flex;
+    align-items: center;
+    height: 22px;
 }
 
-nav a:hover {
+.headerLink:hover {
     background-color: gray;
     transition: .3s;
+}
+
+
+.signLogBtn {
+    margin: 5px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0ec300;
+    cursor: pointer;
+}
+
+.signLogBtn:hover {
+    background-color: #0cab00;
+    transition: .3s;
+}
+
+.signLogBtn a {
+    text-decoration: none;
+    color: white;
 }

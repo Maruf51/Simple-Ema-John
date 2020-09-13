@@ -1,0 +1,25 @@
+.productName {
+    text-decoration: none;
+    color: #404dff;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.review-item {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
+
+.review-price {
+    font-size: 15px;
+    color: #b12704;
+}
+
+.quantity {
+    font-weight: 500;
+}
+
+.review-item img {
+    padding-right: 20px;
+}

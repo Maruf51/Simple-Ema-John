@@ -24,6 +24,10 @@ p {
     font-size: 15px;
 }
 
+.product-price {
+    color: #b12704;
+}
+
 .cart-btn {
     background-color: #f0c14b;
     border: 1px solid #a88734 ;
@@ -36,4 +40,14 @@ p {
 
 h3 {
     font-weight: 500;
+}
+
+.productName a {
+    text-decoration: none;
+    color: #404dff;
+    font-weight: 600;
+}
+
+.productName a:hover {
+    text-decoration: underline;
 }
